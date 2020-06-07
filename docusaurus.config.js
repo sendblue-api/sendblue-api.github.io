@@ -1,17 +1,17 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Sendblue',
+  tagline: 'iMessaging API',
+  url: 'https://sendblue.co',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'sendblue', // Usually your GitHub org/user name.
-  projectName: 'sendblue', // Usually your repo name.
+  organizationName: 'sendblue-api', // Usually your GitHub org/user name.
+  projectName: 'sendblue-go', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: '',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Sendblue Logo',
+        src: 'static/img/logo.svg',
       },
       links: [
         {
@@ -22,7 +22,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/sendblue-api',
           label: 'GitHub',
           position: 'right',
         },
@@ -88,7 +88,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/sendblue-api',
         },
         blog: {
           showReadingTime: true,
