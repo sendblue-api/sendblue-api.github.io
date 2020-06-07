@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="245px" height="79px" viewBox="0 0 245 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#40B2FB" offset="0%"></stop>
+            <stop stop-color="#36A9FC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo">
+            <path d="M23.5426475,72.2881985 C12.5262614,79.1501651 0.269904647,78.9997346 0.269904647,78.9997346 C-0.0367104513,79.0055999 -0.0911458524,78.8803126 0.153304795,78.7244386 C0.153304795,78.7244386 8.57065138,73.7203201 9.89852281,65.5147553 C10.155813,63.9248342 10.3398414,61.9928517 10.4693392,59.9110556 C6.47567162,53.9534355 4.17709158,46.9659058 4.17709158,39.4926403 C4.17709158,17.6814573 23.757041,0 47.9279235,0 L201.249167,0 C225.412085,0 245,17.6766616 245,39.4926403 C245,61.3038232 225.42005,78.9852805 201.249167,78.9852805 L47.9279235,78.9852805 C38.8997783,78.9852805 30.5103226,76.5175452 23.5426475,72.2881985 Z" id="Bubble" fill="url(#linearGradient-1)" transform="translate(122.500000, 39.500000) scale(-1, 1) translate(-122.500000, -39.500000) "></path>
+            <text id="sendblue" fill="#FFFFFF" font-family="Helvetica-Light, Helvetica" font-size="45" font-weight="300">
+                <tspan x="27" y="53">sendblue</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
