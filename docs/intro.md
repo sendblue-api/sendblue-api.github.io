@@ -5,7 +5,8 @@ sidebar_label: Introduction
 ---
 
 ## Disclaimer
-Sendblue is still a very young project in its early beta stage. It is by no means feature-complete and there are likely still some issues with the API.
+Sendblue is still a very young project in its early beta stage. It is by no means feature-complete and there are likely still some issues with the API. That being said, every time you use this API, you are helping it grow and improve, so thank you :)
+
 If you discover a bug, please raise an issue [Here](https://github.com/sendblue-api/sendblue-api.github.io/issues "Sendblue Repository"), and if there are other issues please [Tweet](https://twitter.com/JerschowNikita "Twitter") at me.
 
 ## Features

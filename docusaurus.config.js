@@ -35,29 +35,25 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Getting Started',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Messaging',
+              to: 'docs/sending/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Contact',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Email',
+              href: 'mailto:support@sendblue.co',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/JerschowNikita',
             },
           ],
         },
@@ -65,8 +61,8 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Landing Page',
+              to: 'https://sendblue.co/',
             },
             {
               label: 'GitHub',
@@ -88,7 +84,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/sendblue-api/sendblue-api.github.io/tree/master/docs',
+            'https://github.com/sendblue-api/sendblue-api.github.io/blob/gh-pages/docs/',
         },
         blog: {
           showReadingTime: true,
