@@ -1,11 +1,11 @@
 module.exports = {
   title: 'Sendblue',
-  tagline: 'iMessaging API',
+  tagline: 'SMS + iMessaging API Designed for Successful Businesses',
   url: 'https://sendblue.co',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'sendblue-api', // Usually your GitHub org/user name.
-  projectName: 'sendblue-go', // Usually your repo name.
+  organizationName: 'sendblue-api', // Usually your GitHub org/user name. 
+  projectName: 'sendblue-api.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: '',
@@ -75,7 +75,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Sendblue, Built with ❤️ by @JerschowNikita.`,
     },
   },
   presets: [
@@ -84,11 +84,11 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'doc1',
+          homePageId: 'intro',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/sendblue-api',
+            'https://github.com/sendblue-api/sendblue-api.github.io/tree/master/docs',
         },
         blog: {
           showReadingTime: true,

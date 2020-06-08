@@ -1,5 +1,5 @@
 ---
-id: sendingMessages
+id: sending
 title: Sending Messages
 sidebar_label: Sending Messages
 ---
@@ -73,7 +73,7 @@ for now anything besides 0 means the message has failed. In the future we will b
 
 :::caution
 
-Sendblue guaruntees message deliverability, and each client will only ever interact with your business from one phone number. However, different clients may see different numbers for texts sent from your company.
+Sendblue focuses on message deliverability and end-user experience. This means that each of your users will only ever interact with your business through one Sendblue hone number. However, different clients may see different numbers for texts sent from your company.
 
 :::
 

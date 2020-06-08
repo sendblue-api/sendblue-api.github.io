@@ -1,5 +1,6 @@
 module.exports = {
   someSidebar: {
-    Messaging: ['sendingMessages', 'receivingMessages'],
+    GattingStarted: ['intro', 'credentials', 'webhooks'],
+    Messaging: ['sending', 'receiving'],
   },
 };

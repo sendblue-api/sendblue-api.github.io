@@ -1,5 +1,5 @@
 ---
-id: receivingMessages
+id: receiving
 title: Receiving Messages
 sidebar_label: Receiving Messages
 ---
