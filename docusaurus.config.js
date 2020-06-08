@@ -11,7 +11,7 @@ module.exports = {
       title: '',
       logo: {
         alt: 'Sendblue Logo',
-        src: 'static/img/logo.svg',
+        src: 'img/logo.svg',
       },
       links: [
         {
@@ -24,6 +24,11 @@ module.exports = {
         {
           href: 'https://github.com/sendblue-api',
           label: 'GitHub',
+          position: 'left',
+        },
+        {
+          href: 'https://sendblue.co/account',
+          label: 'Console',
           position: 'right',
         },
       ],
@@ -66,7 +71,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/sendblue-api',
             },
           ],
         },
@@ -90,7 +95,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/sendblue-api/sendblue-api.github.io/tree/gh-pages/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
