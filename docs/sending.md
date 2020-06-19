@@ -8,13 +8,17 @@ Thank you for trying out sendblue. Below you will find some very basic API Docs 
 
 ## Sending iMessages
 
+`POST https://api.sendblue.co/api/send-message`
+
 In order to send messages with sendblue, simply send a POST request with your api key and secret as headers, and a json body which contains the destination number and the content of your message.
 
 Here's what it looks like in Node.js:
 
 ``` js
+var url = `https://api.sendblue.co/api/send-message`;
+
 request.post({
-    url: "https://bluetexts-272923.uc.r.appspot.com/api/send-message",
+    url: url,
     headers: {
         "sb-api-key-id": <<apiKey>>,
         "sb-api-secret-key": <<apiSecret>>
@@ -41,7 +45,7 @@ Here is a sample send-message response:
     "status": "SENT",
     "error_code": "",
     "from_number": "+13322175641",
-    "messsage_handle": "1bfed3fa-2431-4ef2-b000-571a3c5dbf7b"
+    "message_handle": "1bfed3fa-2431-4ef2-b000-571a3c5dbf7b"
 }
 ```
 
@@ -59,9 +63,7 @@ The status field will report the status. There are currently 7 different possibl
 
 **DOWNGRADED** - The end user does not have iMessage enabled, therefore we had to downgrade the message and send it as an SMS
 
-**TIMEOUT** - Our servers have failed to provide an accurate status for the message in the alotted time (8s). Use the '/status' endpoint to check the true message status
-
-**PENDING** - You have requested to send this message when either you have reached your rate limit, or we are experiencing high traffic on the server, and we will send your message as soon as possible. You can request the status of the message using the '/status' endpoint.
+**PENDING** - The message has reached our servers, but we have not been able to resolve the message status. This message may send at some point in the future. You can check on pending messages by querying the [/api/status](status.md) endpoint
 
 ### Error Codes
 

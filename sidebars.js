@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
     GattingStarted: ['intro', 'credentials', 'webhooks'],
-    Messaging: ['sending', 'receiving'],
+    Messaging: ['sending', 'receiving', 'status'],
   },
 };

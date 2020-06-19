@@ -24,7 +24,7 @@ const features = [
     description: (
       <>
         Sendblue was built with a focus on security, so you don't have to.
-        Each messsage is end-to-end encrypted and never stored in plain-text.
+        Each message is end-to-end encrypted and never stored in plain-text.
       </>
     ),
   },
