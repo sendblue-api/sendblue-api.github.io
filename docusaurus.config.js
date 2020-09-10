@@ -11,7 +11,7 @@ module.exports = {
       title: '',
       logo: {
         alt: 'Sendblue Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo-trans-blue.png',
       },
       links: [
         {

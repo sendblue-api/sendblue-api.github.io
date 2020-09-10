@@ -5,7 +5,7 @@ sidebar_label: Message Status
 ---
 
 ## Resolving Pending Message Status
-Sometimes, when our servers are under heavy load, a request you make may come back with a status of `PENDING`. This will be most common when you batch several requests together. In such a scenario, it is important that you are aware of the final status of the message, so that you don't double message a user. In order to get the final status of your message, you may query the `/api/status` endpoint.
+Sometimes, when our servers are under heavy load, a request you make may come back with a status of `QUEUED`. This will be most common when you batch several requests together. In such a scenario, it is important that you are aware of the final status of the message, so that you don't double message a user. In order to get the final status of your message, you may query the `/api/status` endpoint.
 
 ### Authentication
 Just like any other request to the API, make sure you include your credentials in the appropriate headers:

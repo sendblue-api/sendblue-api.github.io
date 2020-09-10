@@ -4,6 +4,7 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
+`v1.0.0 beta`
 ## Disclaimer
 Sendblue is still a very young project in its early beta stage. It is by no means feature-complete and there are likely still some issues with the API. That being said, every time you use this API, you are helping it grow and improve, so thank you :)
 
@@ -14,9 +15,9 @@ If you discover a bug, please raise an issue [Here](https://github.com/sendblue-
  - ✅ **Receiving iMessages**: Receiving iMessages is supported through webhooks
  - ✅ **Sending SMS**: Sending SMS is supported
  - ✅ **Receiving SMS**: Receiving SMS is supported
- - ❌ _**Sending MMS**: Not supported_
- - ❌ _**Receiving MMS**: Not supported_
- - ❌ _**Tapbacks**: Scheduled (07/31/20)_
+ - 🟡 _**Sending MMS**: Scheduled_
+ - 🟡 _**Receiving MMS**: Scheduled_
+ - ❌ _**Tapbacks**: Not Supported_
  - ❌ _**Group iMessaging**: Not supported_
 
 ### Requests
