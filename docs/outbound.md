@@ -22,20 +22,28 @@ Here's what that looks like in Node.js
 const url = `https://api.sendblue.co/api/send-message` ;
 
 axios.post(url, {
-        number: '+19998887777',
-        content: 'Hello world!',
-        statusCallback: 'https://example.com/message-status/1234abcd',
-    },
-    headers: {
-        "sb-api-key-id": << apiKey >> ,
-        "sb-api-secret-key": << apiSecret >>
-    },
+    number: '+19998887777',
+    content: 'Hello world!',
+    media_url: 'https://source.unsplash.com/random.png',
+    statusCallback: 'https://example.com/message-status/1234abcd',
+},
+headers: {
+    "sb-api-key-id": << apiKey >> ,
+    "sb-api-secret-key": << apiSecret >>
+},
 }).then(response => {
     console.log(response.data);
 }).catch(error => {
     console.error(error);
 });
 ```
+
+
+## Sending files
+
+You can send images using the `media_url` parameter. This URL should be a CDN link pointing to an image. The URL must end with the proper file extension. We recommend sticking to the standard PascalCase naming convention. So if your image is named "Welcome Image", we recommend uploading it to your CDN as "WelcomeImage.png". 
+
+Files are currently capped at **5MB**. 
 
 ## Status Callback
 
@@ -49,7 +57,7 @@ Sendblue will POST the endpoint you provide in `statusCallback` whenever the sta
 
 Below is an example of the POST body that is sent to the statusCallback URL for a delivered message:
 
-```json
+``` json
 {
   "accountEmail": "support@sendblue.co",
   "content": "Hello world!",
@@ -61,13 +69,36 @@ Below is an example of the POST body that is sent to the statusCallback URL for 
   "date_sent": "2020-09-10T06:15:05.962Z",
   "date_updated": "2020-09-10T06:15:14.115Z",
   "from_number": "+15122164639",
+  "number": "+19998887777",
   "to_number": "+19998887777",
   "was_downgraded": false,
   "plan": "blue"
 }
 ```
 
-## Status Resolution
+:::important
+You must send a response to our server in order to avoid receiving multiple webhook calls.
+:::
+
+## Message Status Resolution
+
+| Callback Body Field | Type | Description |
+| --- | --- | --- |
+| accountEmail | `string` | Associated account email |
+| content | `string` | Message content |
+| is_outbound | `boolean` | True if message is sent, false if message is received |
+| media_url | `string` | A CDN link to the image that you sent our servers |
+| status | `string` | The current status of the message |
+| error_code | `int` | error code (null if no error) |
+| error_message | `string` | descriptive error message (null if no error) |
+| message_handle | `string` | Sendblue message handle |
+| date_sent | `string` | ISO 8601 formatted date string of the date this message was created |
+| date_updated | `string` | ISO 8601 formatted date string of the date this message was last updated |
+| from_number | `string` | E.164 formatted phone number string of the message dispatcher |
+| number | `string` | E.164 formatted phone number string of your end-user (not the Sendblue-provided phone number) |
+| to_number | `string` | E.164 formatted phone number string of the message recipient |
+| was_downgraded | `boolean` | true if the end user does not support iMessage, false otherwise |
+| plan | `string` | Value of the Sendblue account plan |
 
 ### Status
 
@@ -94,6 +125,10 @@ Any Code besides 0 or null is a failure. Some codes are not yet documented.
 | 5003 | Server Rate Exceeded |
 | 10001 | message failed to send |
 | 10002 | failed to resolve message status |
+
+## Limits
+
+Messages sent using Sendblue must be less than 18996 characters in length. If you have larger requirements we recommend breaking the message up into several, smaller messages.
 
 ## Useful Information
 

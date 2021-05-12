@@ -1,4 +1,4 @@
----
+<!-- ---
 id: welcome
 title: Welcome
 author: Nikita Jerschow
@@ -14,4 +14,4 @@ The initial use-case for Sendblue was a way for promoters (Yes, the people who p
 
 At the time of this writing, Sendblue is about 2 months old, and it will soon be publicly available as an API, so anyone can build the promoter use-case on top of it.
 
-Thank you for trying out Sendblue, each message you send helps us improve :)
+Thank you for trying out Sendblue, each message you send helps us improve :) -->

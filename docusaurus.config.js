@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Sendblue',
   tagline: 'SMS + iMessaging API Designed for Successful Businesses',
-  url: 'https://sendblue.co',
+  url: 'https://docs.sendblue.co',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'sendblue-api', // Usually your GitHub org/user name. 
@@ -20,14 +20,14 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/sendblue-api',
           label: 'GitHub',
           position: 'left',
         },
         {
-          href: 'https://sendblue.co/account',
+          href: 'https://sendblue.co/dashboard',
           label: 'Console',
           position: 'right',
         },
@@ -45,7 +45,7 @@ module.exports = {
             },
             {
               label: 'Messaging',
-              to: 'docs/sending/',
+              to: 'docs/outbound/',
             },
           ],
         },
@@ -58,7 +58,7 @@ module.exports = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/JerschowNikita',
+              href: 'https://twitter.com/sendbluedotco',
             },
           ],
         },
@@ -76,7 +76,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Sendblue, Built with ❤️ by @JerschowNikita.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Sendblue, Built with ❤️ by @nikita_jerschow.`,
     },
   },
   presets: [

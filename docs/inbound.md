@@ -6,7 +6,9 @@ sidebar_label: Receiving Messages
 
 :::caution
 
-A client must be registered using the register contact endpoint before the messages they send will be forwarded to your webhook.
+A user must be registered as a contact on your account before their messages will be routed to you. This can be done by sending them a message or adding them as a contact.
+
+Need receive-first texting? [Talk to us](mailto:support@sendblue.co) about our dedicated plans.
 
 :::
 
@@ -18,11 +20,44 @@ Received Messages will be sent as a POST request to the webhook which you define
 
 ``` json
 {
-    "number": "+19999999999",
-    "content": "World Hello!"
+  "accountEmail": "support@sendblue.co",
+  "content": "Ahoy Developer!",
+  "media_url": "some_cdn_link.png",
+  "is_outbound": false,
+  "status": "RECEIVED",
+  "error_code": null,
+  "error_message": null,
+  "message_handle": "xxxxx",
+  "date_sent": "2020-09-10T06:15:05.962Z",
+  "date_updated": "2020-09-10T06:15:05.962Z",
+  "from_number": "+19998887777",
+  "number": "+19998887777",
+  "to_number": "+15122164639",
+  "was_downgraded": false,
+  "plan": "blue"
 }
 ```
 
-## Responses to Webhook POST Request
+:::important
+You must send a response to our server in order to avoid receiving multiple webhook calls.
+:::
 
-The response that your server gives to our receiving webhook is currently ignored. This will likely change in the near future.
+## Webhook Body Parsing
+
+| Callback Body Field | Type | Description |
+| --- | --- | --- |
+| accountEmail | `string` | Associated account email |
+| content | `string` | Message content |
+| media_url | `string` | A CDN link to the image that was sent to your sendblue number from an end-user. This link expires after 30 days |
+| is_outbound | `boolean` | True if message is sent, false if message is received |
+| status | `string` | The current status of the message |
+| error_code | `int` | error code (null if no error) |
+| error_message | `string` | descriptive error message (null if no error) |
+| message_handle | `string` | Sendblue message handle |
+| date_sent | `string` | ISO 8601 formatted date string of the date this message was created |
+| date_updated | `string` | ISO 8601 formatted date string of the date this message was last updated |
+| from_number | `string` | E.164 formatted phone number string of the message dispatcher |
+| number | `string` | E.164 formatted phone number string of your end-user (not the Sendblue-provided phone number) |
+| to_number | `string` | E.164 formatted phone number string of the message recipient |
+| was_downgraded | `boolean` | true if the end user does not support iMessage, false otherwise |
+| plan | `string` | Value of the Sendblue account plan |
