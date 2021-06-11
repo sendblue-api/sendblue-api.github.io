@@ -29,7 +29,8 @@ axios.post(url, {
 },
 headers: {
     "sb-api-key-id": << apiKey >> ,
-    "sb-api-secret-key": << apiSecret >>
+    "sb-api-secret-key": << apiSecret >>,
+    "content-type": "application/json"
 },
 }).then(response => {
     console.log(response.data);

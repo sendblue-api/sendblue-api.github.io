@@ -18,7 +18,7 @@ Please [Contact us](mailto:support@sendblue.co) if you want us to prioritize a f
 ## Scheduled
  - 🟡 _**Sendblue Discord**: Scheduled (ETA: 5/15/21)_
  - 🟡 _**Tapbacks**: Scheduled (ETA: 5/30/21)_
- - 🟡 _**Group iMessaging**: Scheduled (ETA: 6/15/21)_
+ - 🟡 _**Group iMessaging**: Scheduled (ETA: 6/15/21)_ - See progress [here](/docs/groups)
 
 ## Planned
  - 🟡 _**Bulk messageing**: Planned_
