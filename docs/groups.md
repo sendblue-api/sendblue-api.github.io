@@ -18,10 +18,12 @@ Currently the group messaging api is only available to Sapphire plans and above.
  - ✅ **Sending SMS to groups**: supported
  - ✅ **Receiving iMessage in groups**: supported
  - ✅ **Receiving SMS in groups**: supported
- - 🟡 _**Sending MMS to groups**: Scheduled_
+ - ✅ **Sending MMS to groups**: supported
  - ✅ **Receiving MMS in groups**: supported
- - 🟡 _**Adding people to groups**: Scheduled_
+ - ✅ **Sending [expressive messages](/docs/expressive-messages)**: supported
+ - ✅ **Adding people to groups**: supported
  - 🟡 _**Removing people from groups**: Scheduled_
+ - 🟡 _**Changing group names**: Scheduled_
  - 🟡 _**Leaving groups**: Scheduled_
 
 # Sending group messages
@@ -120,6 +122,30 @@ the `number` and `to_number` fields will likely be renamed to `numbers` and `to_
 # Receiving Group Messages
 
 Receiving group messages is very straightforward. There will be a field called group_id which gets sent to your [receive webhook](/docs/inbound). 
+
+# Adding people to group chats
+
+To add someone to your group chat, you can send a POST request to `/api/modify-group`.
+
+This endpoint expects 3 parameters.
+
+| Field | Type | Description |
+| --- | --- | --- |
+| group_id | `string` | The id of the group which you want to add a recipient to |
+| modify_type | `add_recipient`, <br /> `remove_recipient`&nbsp;🟡, <br /> `rename`&nbsp;🟡, <br /> `leave`&nbsp;🟡 | The modification type to perform |
+| number | `string` | The E.164 standard format for the number that you want to add/remove from the group chat. (Ignored if `modify_type` !== `add_recipient` or `remove_recipient`) |
+🟡 _= unsupported_
+
+Here is an example of the JSON post body:
+```json
+{
+    "group_id": "12324354gds-234gvwa30-4evdsbtrs-4agrg4areeg",
+    "modify_type": "add_recipient",
+    "number": "‭+19998887777"
+}
+```
+
+# Removing people from group chats (In progress)
 
 :::tip
 This documentation is actively being updated

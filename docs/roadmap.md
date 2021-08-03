@@ -16,9 +16,9 @@ Please [Contact us](mailto:support@sendblue.co) if you want us to prioritize a f
  - ✅ **Zapier integration**: Zapier is supported [see here](/docs/zapier)
 
 ## Scheduled
- - 🟡 _**Sendblue Discord**: Scheduled (ETA: 5/15/21)_
- - 🟡 _**Tapbacks**: Scheduled (ETA: 5/30/21)_
- - 🟡 _**Group iMessaging**: Scheduled (ETA: 6/15/21)_ - See progress [here](/docs/groups)
+ - 🟡 _**Sendblue Discord**: Scheduled_
+ - 🟡 _**Tapbacks**: Scheduled (ETA: 9/30/21)_
+ - 🟡 _**Group iMessaging**: In progress_ - See progress [here](/docs/groups)
 
 ## Planned
  - 🟡 _**Bulk messageing**: Planned_

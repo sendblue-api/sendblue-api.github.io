@@ -76,7 +76,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Sendblue, Built with ❤️ by @nikita_jerschow.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Sendblue, Built with ❤️ by @nikita_builds.`,
     },
   },
   presets: [

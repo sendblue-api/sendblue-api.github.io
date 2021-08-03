@@ -19,26 +19,38 @@ You can send a message directly with cURL or by using one of our client librarie
 Here's what that looks like in Node.js
 
 ``` js
+const axios = require('axios');
+
 const url = `https://api.sendblue.co/api/send-message` ;
 
-axios.post(url, {
-    number: '+19998887777',
-    content: 'Hello world!',
-    media_url: 'https://source.unsplash.com/random.png',
-    statusCallback: 'https://example.com/message-status/1234abcd',
-},
-headers: {
-    "sb-api-key-id": << apiKey >> ,
-    "sb-api-secret-key": << apiSecret >>,
-    "content-type": "application/json"
-},
-}).then(response => {
-    console.log(response.data);
-}).catch(error => {
-    console.error(error);
-});
+axios.post('https://api.sendblue.co/api/send-message', {
+        number: '+19998887777',
+        content: 'Hello world!',
+        send_style: 'invisible',
+        media_url: 'https://source.unsplash.com/random.png',
+        statusCallback: 'https://example.com/message-status/1234abcd',
+    },
+    {
+        headers: {
+            "sb-api-key-id": "d607fd40ff448cf9219ceec7c41f6dc5",
+            "sb-api-secret-key": "a10df202e09c763cbaf291cfa2b361b2",
+            "content-type": "application/json"
+        }
+    }).then(response => {
+        console.log(response.data);
+    }).catch(error => {
+        console.error(error);
+    });
 ```
 
+### Request body
+| parameter | type | description |
+| --- | --- | --- |
+| number | string | The number of the recipient of the message |
+| content | string | The content of the message |
+| send_style | string | The style of delivery of the message (see [expressive messages](/docs/expressive-messages)) |
+| media_url | string | The URL of the image you want to send |
+| statusCallback | string | The URL where you want to receive the status updates of the message |
 
 ## Sending files
 

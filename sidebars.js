@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    'Ge`tting Started': [
+    'Getting Started': [
       'intro',
       'credentials',
       'webhooks'],
@@ -9,6 +9,7 @@ module.exports = {
       'inbound',
       'groups',
       // 'batch',
+      'expressive-messages',
       'zapier'
     ],
     'API': [
@@ -21,4 +22,3 @@ module.exports = {
     ]
   },
 };
-`

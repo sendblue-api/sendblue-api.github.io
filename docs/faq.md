@@ -11,10 +11,10 @@ sidebar_label: FAQ
 Currently, dedicated phone numbers are only supported on the Enterprise plan (application [here](https://share.hsforms.com/1H186fzc2ScGa3wEz4ead-w8mskt)).
 
 #### How much do dedicated numbers cost?
-Dedicated numbers are $30 per month with an additional set-up cost depending on area code. [Contact us](mailto:support@sendblue.co) to learn about our bulk number discounts. 
+Dedicated numbers are priced differently depending on country and area code. [Contact us](mailto:support@sendblue.co) to get a quote and to learn about our bulk number discounts. 
 
 #### Is there a minimum messaging requirement for the Enterprise plan?
-Yes, the minimum messaging requirement to use the enterprise plan is 10,000 messages/month.
+Yes, the minimum messaging requirement to be on the enterprise plan is 10,000 messages/month.
 
 #### Can this service be shut down by Apple?
 No, All of your messages get sent out regardless of underlying services. Our fallback from iMessage to SMS (via our upstream carrier) happens if we see that an iMessage has failed to send. if an SMS fails via our upstream carrier, we retry it using a scale SMS provider such as Twilio. Our 3-level retry mechanism ensures that our messages have the highest deliverability rates on the market.

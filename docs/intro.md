@@ -10,9 +10,11 @@ Welcome to the Sendblue Documentation
 
 If you discover a bug, please raise an issue [here](https://github.com/sendblue-api/sendblue-api.github.io/issues "Sendblue Repository"), If you need support with your integration, you can email us at [support@sendblue.co](mailto:support@sendblue.co). Here are some helpful links for getting started quickly:
 
+* [FAQ](/docs/faq)
 * [Outbound (sending) iMessages](/docs/outbound)
 * [Inbound (receiving) iMessages](/docs/inbound)
 * [Zapier documentation](/docs/zapier)
+* [Expressive Messages](/docs/expressive-messages)
 * [Rate limits & Queues](/docs/messageLimits)
 * [Feature Roadmap](/docs/roadmap)
 * [Enterprise application](https://share.hsforms.com/1H186fzc2ScGa3wEz4ead-w8mskt)
