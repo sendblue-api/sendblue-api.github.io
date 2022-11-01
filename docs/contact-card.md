@@ -39,4 +39,4 @@ Some common reasons why this doesn't work:
 4. The Content-Type parameter was not set in the request to Sendblue (set it to `application/json`)
 5. The API key and Secret where not sent to the API as described in the [auth docs](/docs/credentials)
 
-If you still have issues please feel free to [reach out](mailto:support@sendblue.co), this would help us improve our docs and we respod pretty fast!
+If you still have issues please feel free to [reach out](mailto:support@sendblue.co), this would help us improve our docs and we respond pretty fast!
