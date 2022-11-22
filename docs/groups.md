@@ -1,6 +1,7 @@
 ---
 id: groups
 title: Group Messages
+description: Sending Group Messages from your Business | iMessage for Business - Sendblue
 sidebar_label: Group Messages
 ---
 

@@ -1,6 +1,7 @@
 ---
 id: intro
 title: Introduction
+description: Sendblue Documentation | iMessage for Business - Try it Free
 sidebar_label: Introduction
 slug: /
 ---
@@ -9,7 +10,7 @@ slug: /
 
 ## Welcome
 
-Welcome to the Sendblue Documentation
+Welcome to the Sendblue Documentation.
 
 If you discover a bug, please raise an issue [here](https://github.com/sendblue-api/sendblue-api.github.io/issues 'Sendblue Repository'), If you need support with your integration, you can email us at [support@sendblue.co](mailto:support@sendblue.co). Here are some helpful links for getting started quickly:
 

@@ -1,6 +1,7 @@
 ---
 id: expressive-messages
 title: Expressive Messages
+description: Send Messages with Special Effects for your Business | Sendblue
 sidebar_label: Expressive Messages
 ---
 

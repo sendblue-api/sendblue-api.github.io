@@ -1,17 +1,20 @@
 ---
 id: contact-card
 title: Sending a Contact Card
+description: Sending a Contact Card for your Business | iMessage for Business - Sendblue
 sidebar_label: Sending a Contact Card
 ---
 
 ## Getting started
+
 Having a user add you as a contact helps your business in many ways:
 
-* it allows any links you send to expand on the end users phone, 
-* it drastically increases your messaging rate limits.
-* your user will know who you are, even if you don't message them in a year.
+- it allows any links you send to expand on the end users phone,
+- it drastically increases your messaging rate limits.
+- your user will know who you are, even if you don't message them in a year.
 
 ### Creating a contact card
+
 The first step is to create a contact card for your business. You can do this with a free online tool such as https://vcardmaker.com/.
 
 For this example we will be using our vcard which we uploaded to our Cloud storage bucket:
@@ -19,6 +22,7 @@ For this example we will be using our vcard which we uploaded to our Cloud stora
 `https://storage.googleapis.com/inbound-file-store/bettervcard.vcf`
 
 ### Uploading to a CDN
+
 CDN is just short for "Content Delivery Network". We use Google's Cloud Storage service for our CDN needs. But anything as simple as Google Drive or Dropbox will do. Just make sure to set the link to public so that Sendbue has access to fetch your file once you send the request to our servers.
 
 ### Sending the contact card
@@ -29,6 +33,7 @@ To send the contact card we only need two parameters in the body: `number` and `
 `media_url`: The url pointing to the CDN which holds our contact card, in our case `https://storage.googleapis.com/inbound-file-store/bettervcard.vcf`.
 
 ### Troubleshooting
+
 And that's it! if you run into issues make sure to reference our [outbound docs](/docs/outbound).
 
 Some common reasons why this doesn't work:
