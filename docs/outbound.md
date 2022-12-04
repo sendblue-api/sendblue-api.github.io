@@ -31,7 +31,7 @@ axios
       number: '+19998887777',
       content: 'Hello world!',
       send_style: 'invisible',
-      media_url: 'https://source.unsplash.com/random.png',
+      media_url: 'https://picsum.photos/200/300.jpg',
       status_callback: 'https://example.com/message-status/1234abcd'
     },
     {

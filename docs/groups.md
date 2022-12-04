@@ -67,7 +67,7 @@ axios.post(url, {
         '+17778889999'
     ],
     content: 'Hello group!',
-    media_url: 'https://source.unsplash.com/random.png',
+    media_url: 'https://picsum.photos/200/300.jpg',
     status_callback: 'https://example.com/message-status/1234abcd',
 },
 headers: {
@@ -110,7 +110,7 @@ See the example below to see what our response body looks like. Note that this A
   "to_number": ["+19173599290", "+18582430295"],
   "was_downgraded": null,
   "plan": "blue",
-  "media_url": "https://source.unsplash.com/random.png",
+  "media_url": "https://picsum.photos/200/300.jpg",
   "message_type": "group",
   "group_id": "66e3b90d-4447-43c6-9439-15a694408ac2"
 }
