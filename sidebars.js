@@ -7,6 +7,7 @@ module.exports = {
       "groups",
       // 'batch',
       "expressive-messages",
+      "evaluate-service",
       "zapier",
     ],
     API: ["faq", "roadmap", "messageLimits"],
