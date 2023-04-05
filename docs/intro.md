@@ -21,7 +21,7 @@ If you discover a bug, please raise an issue [here](https://github.com/sendblue-
 - [Expressive Messages](/docs/expressive-messages)
 - [Rate limits & Queues](/docs/messageLimits)
 - [Feature Roadmap](/docs/roadmap)
-- [Enterprise application](https://share.hsforms.com/1H186fzc2ScGa3wEz4ead-w8mskt)
+- [Enterprise application](https://share.hsforms.com/1RHuAjVngRq6MuGlCIRApWAejx9i)
 
 ## Features
 

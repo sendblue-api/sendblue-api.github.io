@@ -21,7 +21,7 @@ Standard plans are subject to the quotas the we have listed on our [homepage](ht
 
 ### Enterprise plans
 
-Enterprise plans are meant to serve companies for which the standard pricing model doesn't make sense. We are giving these out on an application basis to ensure high message quality and to combat spam. ([Application here](https://share.hsforms.com/1H186fzc2ScGa3wEz4ead-w8mskt))
+Enterprise plans are meant to serve companies for which the standard pricing model doesn't make sense. We are giving these out on an application basis to ensure high message quality and to combat spam. ([Application here](https://share.hsforms.com/1RHuAjVngRq6MuGlCIRApWAejx9i))
 
 Each enterprise plan is given an initial quota which depends on the use-case. This will usually be in the form of a monthly message limit. All enterprise plans must still comply with the [rate limits](/docs/messageLimits#rate-limits).
 
@@ -29,7 +29,7 @@ If you are approaching your quota you must reach out to us to request an increas
 
 The reason we set this buffer period is to allow for multiple companies to scale simultaneously on our platform. Though we only guarantee a 2 week fulfillment period, we can likely deliver much faster than that.
 
-If you are coming up on needing a quota increase of >100k messages per month, please fill out [this form](https://share.hsforms.com/1H186fzc2ScGa3wEz4ead-w8mskt).
+If you are coming up on needing a quota increase of >100k messages per month, please fill out [this form](https://share.hsforms.com/1RHuAjVngRq6MuGlCIRApWAejx9i).
 
 ## Rate Limits
 

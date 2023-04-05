@@ -11,7 +11,7 @@ sidebar_label: FAQ
 
 #### How can I get multiple phone numbers for my account?
 
-Currently, dedicated phone numbers are only supported on the Enterprise plan (application [here](https://share.hsforms.com/1H186fzc2ScGa3wEz4ead-w8mskt)).
+Currently, dedicated phone numbers are only supported on the Enterprise plan (application [here](https://share.hsforms.com/1RHuAjVngRq6MuGlCIRApWAejx9i)).
 
 #### How much do dedicated numbers cost?
 
