@@ -17,8 +17,23 @@ In this documentation, we will cover how to:
 You can send a message directly with cURL or by using one of our client libraries by hitting the following endpoint:
 
 `POST https://api.sendblue.co/api/send-message`
-Here's what that looks like in Node.js
+Here's what that looks like as a curl request:
 
+```bash
+curl --location --request POST 'https://api.sendblue.co/api/send-message' \
+--header 'sb-api-key-id: YOUR_SB_API_KEY_ID' \
+--header 'sb-api-secret-key: YOUR_SB_API_SECRET_KEY' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "number": "+19998887777",
+    "content": "Hello world!",
+    "send_style": "invisible",
+    "media_url": "https://picsum.photos/200/300.jpg",
+    "status_callback": "https://example.com/message-status/1234abcd"
+}'
+```
+
+And here's the same in Node.js with Axios
 ```js
 const axios = require('axios')
 
@@ -26,7 +41,7 @@ const url = `https://api.sendblue.co/api/send-message`
 
 axios
   .post(
-    'https://api.sendblue.co/api/send-message',
+    url,
     {
       number: '+19998887777',
       content: 'Hello world!',
@@ -36,8 +51,8 @@ axios
     },
     {
       headers: {
-        'sb-api-key-id': 'd607fd40ff448cf9219ceec7c41f6dc5',
-        'sb-api-secret-key': 'a10df202e09c763cbaf291cfa2b361b2',
+        'sb-api-key-id': 'YOUR_SB_API_KEY_ID',
+        'sb-api-secret-key': 'YOUR_SB_API_SECRET_KEY',
         'content-type': 'application/json'
       }
     }

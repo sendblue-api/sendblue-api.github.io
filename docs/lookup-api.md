@@ -1,8 +1,8 @@
 ---
-id: evaluate-service
+id: lookup-api
 title: Find out if a Number can send/receive iMessages
 description: Evaluate Whether a Number Can Receive iMessage | Sendblue
-sidebar_label: Determine Service
+sidebar_label: Lookup Service API
 ---
 
 The Sendblue API allows you to call an endpoint to figure out if a number supports iMessage. This is pretty useful to determine:
@@ -13,7 +13,7 @@ The Sendblue API allows you to call an endpoint to figure out if a number suppor
 
 ## Usage
 
-The evaluate-service endpoint is a GET request to the following URL:
+The lookup-api (formerly called evaluate-service) endpoint is a GET request to the following URL:
 
 `https://api.sendblue.co/api/evaluate-service?number=+19999999999`
 
