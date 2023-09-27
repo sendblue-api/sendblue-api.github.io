@@ -34,35 +34,36 @@ curl --location --request POST 'https://api.sendblue.co/api/send-message' \
 ```
 
 And here's the same in Node.js with Axios
-```js
-const axios = require('axios')
 
-const url = `https://api.sendblue.co/api/send-message`
+```js
+const axios = require("axios");
+
+const url = `https://api.sendblue.co/api/send-message`;
 
 axios
   .post(
     url,
     {
-      number: '+19998887777',
-      content: 'Hello world!',
-      send_style: 'invisible',
-      media_url: 'https://picsum.photos/200/300.jpg',
-      status_callback: 'https://example.com/message-status/1234abcd'
+      number: "+19998887777",
+      content: "Hello world!",
+      send_style: "invisible",
+      media_url: "https://picsum.photos/200/300.jpg",
+      status_callback: "https://example.com/message-status/1234abcd",
     },
     {
       headers: {
-        'sb-api-key-id': 'YOUR_SB_API_KEY_ID',
-        'sb-api-secret-key': 'YOUR_SB_API_SECRET_KEY',
-        'content-type': 'application/json'
-      }
+        "sb-api-key-id": "YOUR_SB_API_KEY_ID",
+        "sb-api-secret-key": "YOUR_SB_API_SECRET_KEY",
+        "content-type": "application/json",
+      },
     }
   )
-  .then(response => {
-    console.log(response.data)
+  .then((response) => {
+    console.log(response.data);
   })
-  .catch(error => {
-    console.error(error)
-  })
+  .catch((error) => {
+    console.error(error);
+  });
 ```
 
 ### Request body
@@ -74,6 +75,34 @@ axios
 | send_style      | string | The style of delivery of the message (see [expressive messages](/docs/expressive-messages)) |
 | media_url       | string | The URL of the image you want to send                                                       |
 | status_callback | string | The URL where you want to receive the status updates of the message                         |
+
+### Sample response
+
+```json
+{
+  "accountEmail": "YOUR EMAIL",
+  "content": "Hello world!",
+  "is_outbound": true,
+  "status": "QUEUED",
+  "error_code": null,
+  "error_message": null,
+  "message_handle": "dfd747ba-5600-4a8a-804a-a614a0fbc1c5",
+  "date_sent": "2023-09-27T16:35:32.287Z",
+  "date_updated": "2023-09-27T16:35:32.703Z",
+  "from_number": "+16468528190",
+  "number": "+19998887777",
+  "to_number": "+19998887777",
+  "was_downgraded": null,
+  "plan": "dedicated",
+  "media_url": "https://picsum.photos/200/300.jpg",
+  "message_type": "message",
+  "group_id": "",
+  "participants": [],
+  "send_style": "invisible",
+  "opted_out": false,
+  "error_detail": null
+}
+```
 
 ## Sending files
 
