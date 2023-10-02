@@ -56,7 +56,7 @@ The response will be the same as a regular [outbound message](/docs/outbound). T
 
 ## Troubleshooting
 
-Often times, it is desireable to convert the audio file from another format, such as MP3. This can be done using the `ffmpeg` library, and requires the codec to be set as `opus` Here's an example of how to convert an MP3 file to a `.caf` file:
+Often times, it is desireable to convert the audio file from another format, such as MP3. This can be done using the `ffmpeg` library, and requires the codec to be set as `opus` or `libopus` Here's an example of how to convert an MP3 file to a `.caf` file:
 
 ```bash
 ffmpeg -i input.mp3 -acodec opus -b:a 24k output.caf

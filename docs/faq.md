@@ -17,6 +17,10 @@ Currently, dedicated phone numbers are only supported on the Enterprise plan (ap
 
 Dedicated numbers are priced differently depending on country and area code. [Contact us](mailto:support@sendblue.co) to get a quote and to learn about our bulk number discounts.
 
+#### What will happen to my existing users if I upgrade to a different dedicated number?
+
+Existing users will still be messaged from the old number to ensure a consistent user experience. While new users will be messaged from the new number. If you'd like to migrate all users to the new number, just let us know during the upgrade.
+
 #### Is there a minimum messaging requirement for the Enterprise plan?
 
 Yes, the minimum messaging requirement to be on the enterprise plan is 10,000 messages/month.
@@ -39,7 +43,7 @@ No, not directly - although we understand why people say Sendblue is a better, f
 
 #### Why aren't my links expanding?
 
-Apple blocks your phone from expanding links when a sender is not in your contact list. A handy workaround is to send an Apple contact card to your user. See our [Send a contact card](contact-card) quickstart to get this going quickly
+Apple blocks your phone from expanding links when a sender is not in your contact list. A handy workaround is to send an Apple contact card to your user. See our [Send a contact card](/docs/contact-card) quickstart to get this going quickly
 
 #### What happens if the recipient of a message doesn't have an iPhone?
 
