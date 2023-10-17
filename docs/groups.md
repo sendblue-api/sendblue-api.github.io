@@ -96,23 +96,23 @@ See the example below to see what our response body looks like. Note that this A
 
 ```json
 {
-  "accountEmail": "nikita.jerschow@gmail.com",
-  "content": "please",
+  "accountEmail": "YOUR EMAIL",
+  "content": "Hello world",
   "is_outbound": true,
   "status": "QUEUED",
   "error_code": null,
   "error_message": null,
-  "message_handle": "073c1408-a6d9-48e2-ae8c-01f026443833",
+  "message_handle": "073c1408-a6d9-48e2-ae8c-01f06443833",
   "date_sent": "2021-05-19T23:07:23.371Z",
   "date_updated": "2021-05-19T23:07:23.371Z",
-  "from_number": "+13322175641",
-  "number": ["+19173599290", "+18582430295"],
-  "to_number": ["+19173599290", "+18582430295"],
+  "from_number": "+19998887777",
+  "number": ["+11112223333", "+13332221111"],
+  "to_number": ["+11112223333", "+13332221111"],
   "was_downgraded": null,
   "plan": "blue",
   "media_url": "https://picsum.photos/200/300.jpg",
   "message_type": "group",
-  "group_id": "66e3b90d-4447-43c6-9439-15a694408ac2"
+  "group_id": "66e3b90d-4447-43c6-9439-15a69408ac2"
 }
 ```
 
