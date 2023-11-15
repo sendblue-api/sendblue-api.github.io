@@ -15,19 +15,18 @@ Please [Contact us](mailto:support@sendblue.co) if you want us to prioritize a f
 - ✅ **Receiving SMS**: Receiving SMS is supported
 - ✅ **Sending MMS**: Sending MMS is supported
 - ✅ **Receiving MMS**: Receiving MMS is supported
+- ✅ **Inbound Call Forwarding**: You can forward inbound calls to any phone number
+- ✅ **Typing indicator**: You can now dispatch a typing indicator via API
+- ✅ **Read receipts**: You are able to see when a message was read
 - ✅ **Zapier integration**: Zapier is supported [see here](/docs/zapier)
+- 🟡 _**Group iMessaging**: Beta_ - See beta progress [here](/docs/groups)
 
 ## Scheduled
 
 - 🟡 _**Sendblue Discord**: Scheduled_
-- 🟡 _**Tapbacks**: Scheduled (ETA: 6/30/22)_
-- 🟡 _**Group iMessaging**: In progress_ - See progress [here](/docs/groups)
+- 🟡 _**Outbound calling**: Scheduled_
 
 ## Planned
 
-- 🟡 _**Bulk messageing**: Planned_
-- 🟡 _**Read receipts**: Planned_
-- 🟡 _**Bubble integration**: Planned_
-- 🟡 _**Telegram integration**: Planned_
-- 🟡 _**WhatsApp integration**: Planned_
-- 🟡 _**Facebook Messenger integration**: Planned_
+- 🟡 _**Tapbacks**: Planned_
+- 🟡 _**Replies**: Planned_
