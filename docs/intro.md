@@ -12,7 +12,7 @@ slug: /
 
 Welcome to the Sendblue Documentation.
 
-If you discover a bug, please raise an issue [here](https://github.com/sendblue-api/sendblue-api.github.io/issues 'Sendblue Repository'), If you need support with your integration, you can email us at [support@sendblue.co](mailto:support@sendblue.co). Here are some helpful links for getting started quickly:
+If you discover a bug, please raise an issue [here](https://github.com/sendblue-api/sendblue-api.github.io/issues "Sendblue Repository"), If you need support with your integration, you can email us at [support@sendblue.co](mailto:support@sendblue.co). Here are some helpful links for getting started quickly:
 
 - [FAQ](/docs/faq)
 - [Outbound (sending) iMessages](/docs/outbound)
@@ -32,9 +32,9 @@ If you discover a bug, please raise an issue [here](https://github.com/sendblue-
 - ✅ **Sending MMS**: Sending MMS is supported
 - ✅ **Receiving MMS**: Receiving MMS is supported
 - ✅ **Zapier integration**: Zapier is supported [see here](/docs/zapier)
+- ✅ **Group iMessaging**: Sending Group iMessages is on beta stage
 - 🟡 _**Tapbacks**: Scheduled_
 - 🟡 _**Read receipts**: Scheduled_
-- 🟡 _**Group iMessaging**: Scheduled_
 
 _See more on our [Roadmap](/docs/roadmap)_
 
