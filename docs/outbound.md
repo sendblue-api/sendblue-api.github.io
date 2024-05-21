@@ -203,7 +203,7 @@ Messages sent using Sendblue must be less than 18996 characters in length. If yo
 
 :::caution
 
-Sendblue focuses on message deliverability and end-user experience. This means that each of your users will only ever interact with your business through one Sendblue phone number. However, different clients may see different numbers for texts sent from your company. See [Limits & Queues](docs/messageLimits) for more info
+Sendblue focuses on message deliverability and end-user experience. This means that each of your users will only ever interact with your business through one Sendblue phone number. However, different clients may see different numbers for texts sent from your company. See [Limits & Queues](docs/message-limits) for more info
 
 :::
 

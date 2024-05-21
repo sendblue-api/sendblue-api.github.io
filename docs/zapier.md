@@ -28,11 +28,11 @@ To send group messages see our [roadmap](/docs/roadmap). As we will be updating 
 ## Rate limits
 
 :::caution
-You may find that you hit rate limits a lot faster using batch send. All messages are still subject to the individual message [rate limits](/docs/messageLimits)
+You may find that you hit rate limits a lot faster using batch send. All messages are still subject to the individual message [rate limits](/docs/message-limits)
 :::
 
 Be careful when sending many requests to our API (Especially when batch sending).
 
 Each batch send request can contain up to 29 phone numbers, and each phone number in the request will count as an additional outbound message.
 
-Make sure to reference the [rate limits](/docs/messageLimits) documentation before going live.
+Make sure to reference the [rate limits](/docs/message-limits) documentation before going live.

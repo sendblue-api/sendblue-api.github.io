@@ -26,6 +26,7 @@ To create a new contact, make a POST request to the following endpoint:
 curl --location --request POST 'https://api.sendblue.co/accounts/contacts' \
 --header 'sb-api-key-id: YOUR_SB_API_KEY_ID' \
 --header 'sb-api-secret-key: YOUR_SB_API_SECRET_KEY' \
+--header 'Content-Type: application/json' \
 --data '{
   "firstName": "John",
   "lastName": "Doe",

@@ -15,7 +15,7 @@ Currently, dedicated phone numbers are only supported on the Enterprise plan (ap
 
 #### How much do dedicated numbers cost?
 
-Dedicated numbers are priced differently depending on country and area code. [Contact us](mailto:support@sendblue.co) to get a quote and to learn about our bulk number discounts.
+Dedicated numbers are priced differently depending on country, area code, functionalities, and use-case. [Contact us](mailto:support@sendblue.co) to get a quote and to learn about our bulk number discounts.
 
 #### What will happen to my existing users if I upgrade to a different dedicated number?
 
@@ -28,6 +28,8 @@ Yes, the minimum messaging requirement to be on the enterprise plan is 10,000 me
 #### Can this service be shut down by Apple?
 
 No, All of your messages get sent out regardless of underlying services. Our fallback from iMessage to SMS (via our upstream carrier) happens if we see that an iMessage has failed to send. if an SMS fails via our upstream carrier, we retry it using a scale SMS provider such as Twilio. Our 3-level retry mechanism ensures that our messages have the highest deliverability rates on the market.
+
+Keep in mind that you need to configure a Twilio account in the dashboard to fallback to, and as of July 6th 2023 we require an A2p 10DLC application to send A2P 10DLC with our upstream provider.
 
 #### Are there any free-forever plans?
 

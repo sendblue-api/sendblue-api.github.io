@@ -27,7 +27,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://sendblue.co/dashboard",
+          href: "https://app.sendblue.co/auth/login",
           label: "Console",
           position: "right",
         },

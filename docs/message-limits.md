@@ -1,5 +1,5 @@
 ---
-id: messageLimits
+id: message-limits
 title: Rate Limits and Message Queues
 description: API Rate limits | iMessage for Business - Try it Free | Sendblue
 sidebar_label: Limits & Queues
@@ -11,7 +11,7 @@ Similar to many other API providers, Sendblue has a few safeguards in place to r
 
 - Account-level quotas
 - Dynamic rate limits
-- Pooling
+- Sender Pools
 
 ## Account-level quotas
 
@@ -23,7 +23,7 @@ Standard plans are subject to the quotas the we have listed on our [homepage](ht
 
 Enterprise plans are meant to serve companies for which the standard pricing model doesn't make sense. We are giving these out on an application basis to ensure high message quality and to combat spam. ([Application here](https://share.hsforms.com/1RHuAjVngRq6MuGlCIRApWAejx9i))
 
-Each enterprise plan is given an initial quota which depends on the use-case. This will usually be in the form of a monthly message limit. All enterprise plans must still comply with the [rate limits](/docs/messageLimits#rate-limits).
+Each enterprise plan is given an initial quota which depends on the use-case. This will usually be in the form of a monthly message limit. All enterprise plans must still comply with the [rate limits](/docs/message-limits#rate-limits).
 
 If you are approaching your quota you must reach out to us to request an increase. Currently, valid increase requests are guaranteed to be fulfilled within 2 weeks of the initial request for every 1M messages/month. So if you request a 2M/month increase, we guarantee that we can fulfill your request within a month of receiving it.
 

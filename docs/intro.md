@@ -19,7 +19,7 @@ If you discover a bug, please raise an issue [here](https://github.com/sendblue-
 - [Inbound (receiving) iMessages](/docs/inbound)
 - [Zapier documentation](/docs/zapier)
 - [Expressive Messages](/docs/expressive-messages)
-- [Rate limits & Queues](/docs/messageLimits)
+- [Rate limits & Queues](/docs/message-limits)
 - [Feature Roadmap](/docs/roadmap)
 - [Enterprise application](https://share.hsforms.com/1RHuAjVngRq6MuGlCIRApWAejx9i)
 
