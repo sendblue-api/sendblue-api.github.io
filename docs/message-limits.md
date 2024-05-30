@@ -19,14 +19,14 @@ Similar to many other API providers, Sendblue has a few safeguards in place to r
 
 Our standard plans have different daily conversation limits to suit various business needs. The new limits for each plan are as follows:
 
-| Plan           | Description                                | Outbound Limit               |
-| -------------- | ------------------------------------------ | ---------------------------- |
-| Blue Plan      | Perfect for hobbyists and personal projects | 20 conversations per day     |
-| Sapphire Plan  | Perfect for startups & small businesses    | 100 conversations per day    |
-| Lapis Plan     | Perfect for growing enterprises & agencies | 400 conversations per day    |
-
+| Plan          | Description                                 | Outbound Limit            |
+| ------------- | ------------------------------------------- | ------------------------- |
+| Blue Plan     | Perfect for hobbyists and personal projects | 25 conversations per day  |
+| Sapphire Plan | Perfect for startups & small businesses     | 100 conversations per day |
+| Lapis Plan    | Perfect for growing enterprises & agencies  | 400 conversations per day |
 
 _\*Enjoy unlimited messages within each conversation, maintaining an effortless flow with up to one message per second._
+
 ### Enterprise plans
 
 Enterprise plans are meant to serve companies whose standard pricing model doesn't make sense or require inbound messaging (we offer unlimited inbound messages).
@@ -39,11 +39,9 @@ Each enterprise plan is given an initial quota, which depends on the use case. T
 
 If you need to upgrade your acquired plan, please submit your [request](https://share.hsforms.com/1RHuAjVngRq6MuGlCIRApWAejx9i) and we will address it as fast as possible. Our team is committed to ensuring a smooth transition and will prioritize your request to minimize any disruption to your operations. While we strive to fulfill all valid requests promptly, please note that the exact fulfillment time may vary based on current demand and resource availability.
 
-
 ## In Conversation Limits
 
 Each number is capable of sending the industry-standard of 1 message per second. However, accounts are subject to further rate-limiting depending on their use-case.
-
 
 ## Limits in the Number of Different Conversations
 
