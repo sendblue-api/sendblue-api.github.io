@@ -110,7 +110,7 @@ You can send images using the `media_url` parameter. This URL should be a CDN li
 
 Files are currently capped at **5MB**.
 
-media_url does not support [signed urls](https://cloud.google.com/storage/docs/access-control/signed-urls#:~:text=about%20request%20signing.-,Overview,specific%20actions%20on%20a%20resource.), please use the [media object](#create-media-object) pattern for that
+media_url does not support [signed urls](https://cloud.google.com/storage/docs/access-control/signed-urls#:~:text=about%20request%20signing.-,Overview,specific%20actions%20on%20a%20resource.), please use the [media object](/docs/create-media-object) pattern for that
 
 ## Status Callback
 
