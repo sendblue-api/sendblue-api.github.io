@@ -2,8 +2,10 @@ module.exports = {
   title: "Sendblue",
   tagline: "SMS + iMessaging API Designed for Successful Businesses",
   url: "https://sendblue.co",
+  trailingSlash: true,
   baseUrl: "/",
   favicon: "img/favicon.ico",
+  deploymentBranch: 'master',
   organizationName: "sendblue-api", // Usually your GitHub org/user name.
   projectName: "sendblue-api.github.io", // Usually your repo name.
   themeConfig: {
