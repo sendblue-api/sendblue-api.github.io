@@ -1,10 +1,10 @@
 module.exports = {
   title: "Sendblue",
   tagline: "SMS + iMessaging API Designed for Successful Businesses",
-  url: "https://sendblue.co",
+  url: "https://docs.sendblue.com",
   trailingSlash: true,
   baseUrl: "/",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
   deploymentBranch: 'master',
   organizationName: "sendblue-api", // Usually your GitHub org/user name.
   projectName: "sendblue-api.github.io", // Usually your repo name.
@@ -13,7 +13,7 @@ module.exports = {
       title: "",
       logo: {
         alt: "Sendblue Logo",
-        src: "img/logo-trans-blue.png",
+        src: "img/sendblue_logo_3x.png",
       },
       items: [
         {
@@ -29,7 +29,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://app.sendblue.co/auth/login",
+          href: "https://app.tryraz.com/",
           label: "Console",
           position: "right",
         },
@@ -56,7 +56,7 @@ module.exports = {
           items: [
             {
               label: "Email",
-              href: "mailto:support@sendblue.co",
+              href: "mailto:support@sendblue.com",
             },
             {
               label: "Twitter",
@@ -69,7 +69,7 @@ module.exports = {
           items: [
             {
               label: "Landing Page",
-              to: "https://sendblue.co/",
+              to: "https://sendblue.com/",
             },
             {
               label: "GitHub",
