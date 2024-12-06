@@ -2,7 +2,7 @@ module.exports = {
   title: "Sendblue",
   tagline: "SMS + iMessaging API Designed for Successful Businesses",
   url: "https://docs.sendblue.com",
-  trailingSlash: true,
+  trailingSlash: false,
   baseUrl: "/",
   favicon: "img/favicon.png",
   deploymentBranch: 'master',
