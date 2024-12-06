@@ -1,6 +1,6 @@
 ---
 id: intro
-title: Introduction
+title: Introduction | Sendblue iMessage Documentation
 description: Sendblue Documentation | iMessage for Business - Try it Free
 sidebar_label: Introduction
 slug: /

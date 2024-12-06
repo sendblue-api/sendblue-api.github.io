@@ -1,6 +1,6 @@
 ---
 id: webhooks
-title: Setting up Webhooks
+title: Setting up Webhooks | Sendblue Documentation
 descriptions: Webhook Documentation | iMessage for Business - Sendblue
 sidebar_label: Webhooks
 ---

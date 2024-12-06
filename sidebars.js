@@ -13,11 +13,6 @@ module.exports = {
       "typing-indicator",
       "zapier",
     ],
-    Contacts: [
-      "create-contact",
-      "get-contacts",
-      "get-contact-by-id",
-    ],
     API: ["faq", "roadmap", "message-limits"],
     "Tutorials & quickstarts": ["contact-card"],
   },

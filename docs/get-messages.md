@@ -1,6 +1,6 @@
 ---
 id: get-messages
-title: Get Messages
+title: Get Messages | Sendblue Documentation
 description: iMessage for Business | Retrieve messages - Sendblue
 sidebar_label: Get Messages
 ---

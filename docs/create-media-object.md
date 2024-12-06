@@ -1,6 +1,6 @@
 ---
 id: create-media-object
-title: Create Media Object
+title: Create Media Object | Sendblue Documentation
 description: API for uploading media objects - Sendblue
 sidebar_label: Create Media Object
 ---

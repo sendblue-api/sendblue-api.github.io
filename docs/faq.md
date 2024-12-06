@@ -1,6 +1,6 @@
 ---
 id: faq
-title: Frequently Asked Questions
+title: Frequently Asked Questions | Sendblue Documentation
 descriptions: iMessage for Business | Frequently Asked Questions - Sendblue
 sidebar_label: FAQ
 ---

@@ -1,6 +1,6 @@
 ---
 id: outbound
-title: Sending Messages
+title: Sending Messages Documentation | Sendblue
 description: iMessage for Business | Outbound messages documentation - Sendblue
 sidebar_label: Sending Messages
 ---

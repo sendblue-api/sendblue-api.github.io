@@ -1,6 +1,6 @@
 ---
 id: credentials
-title: Credentials
+title: Credentials | Sendblue Documentation
 description: Authenticating with the Sendblue API | iMessage for Business
 sidebar_label: Credentials
 ---

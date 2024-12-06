@@ -1,6 +1,6 @@
 ---
 id: voice-note
-title: Send voice notes to a phone number or group
+title: Send voice notes to a phone number or group | Sendblue Documentation
 description: Send inline-playable voice notes to any recipient or group
 sidebar_label: Voice Note API
 ---

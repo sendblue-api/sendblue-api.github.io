@@ -1,6 +1,6 @@
 ---
 id: message-limits
-title: Rate Limits and Message Queues
+title: Rate Limits and Message Queues | Sendblue Documentation
 description: API Rate limits | iMessage for Business - Try it Free | Sendblue
 sidebar_label: Limits & Queues
 ---

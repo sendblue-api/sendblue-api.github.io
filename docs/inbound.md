@@ -1,6 +1,6 @@
 ---
 id: inbound
-title: Receiving Messages
+title: Receiving Messages | Sendblue Documentation
 description: Receiving Messages as a Business | iMessage for Business - Sendblue
 sidebar_label: Receiving Messages
 ---

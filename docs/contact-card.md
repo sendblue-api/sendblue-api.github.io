@@ -1,6 +1,6 @@
 ---
 id: contact-card
-title: Sending a Contact Card
+title: Sending a Contact Card | Sendblue Documentation
 description: Sending a Contact Card for your Business | iMessage for Business - Sendblue
 sidebar_label: Sending a Contact Card
 ---

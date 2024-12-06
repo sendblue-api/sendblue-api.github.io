@@ -1,6 +1,6 @@
 ---
 id: status
-title: Message Status
+title: Message Status | Sendblue Documentation
 description: Determining Message Status | iMessage for Business - Sendblue
 sidebar_label: Message Status
 ---

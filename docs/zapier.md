@@ -1,6 +1,6 @@
 ---
 id: zapier
-title: Zapier
+title: Send iMessage with Zapier using Sendblue
 description: Sending Messages without Code | iMessage for Business - Sendblue
 sidebar_label: Zapier
 ---

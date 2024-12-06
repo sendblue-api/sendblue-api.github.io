@@ -1,7 +1,7 @@
 ---
 id: lookup-api
-title: Find out if a Number can send/receive iMessages
-description: Evaluate Whether a Number Can Receive iMessage | Sendblue
+title: Lookup Service API | Sendblue Documentation
+description: Find out if a phone number or email supports iMessage | Sendblue
 sidebar_label: Lookup Service API
 ---
 

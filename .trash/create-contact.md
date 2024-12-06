@@ -1,6 +1,6 @@
 ---
 id: create-contact
-title: Create Contact
+title: Create Contact Documentation | Sendblue
 description: iMessage for Business | Create a new contact - Sendblue
 sidebar_label: Create Contact
 ---

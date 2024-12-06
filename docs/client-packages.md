@@ -1,6 +1,6 @@
 ---
 id: client-packages
-title: Sendblue Client Packages
+title: Sendblue Client Packages | Sendblue Documentation
 description: Client Packages for Sendblue | iMessage for Business
 sidebar_label: Client Packages
 ---

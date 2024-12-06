@@ -1,6 +1,6 @@
 ---
 id: typing-indicator
-title: Send a typing indicator to a recipient
+title: Send a typing indicator to a recipient | Sendblue Documentation
 description: Indicate to a user that your chatbot or support agent is thinking/typing
 sidebar_label: Typing Indicator API
 ---
