@@ -28,4 +28,4 @@ If you find any issues with the above packages please open an issue on the respe
 
 ## Requesting a Package
 
-If you are looking for a package in your language but cannot find it, please email us at [support@sendblue.co](mailto:support@sendblue.co).
+If you are looking for a package in your language but cannot find it, please email us at [support@sendblue.com](mailto:support@sendblue.com).

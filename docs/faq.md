@@ -15,7 +15,7 @@ Currently, dedicated phone numbers are only supported on the Enterprise plan (ap
 
 #### How much do dedicated numbers cost?
 
-Dedicated numbers are priced differently depending on country, area code, functionalities, and use-case. [Contact us](mailto:support@sendblue.co) to get a quote and to learn about our bulk number discounts.
+Dedicated numbers are priced differently depending on country, area code, functionalities, and use-case. [Contact us](mailto:support@sendblue.com) to get a quote and to learn about our bulk number discounts.
 
 #### What will happen to my existing users if I upgrade to a different dedicated number?
 

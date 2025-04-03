@@ -12,7 +12,7 @@ slug: /
 
 Welcome to the Sendblue Documentation.
 
-If you discover a bug, please raise an issue [here](https://github.com/sendblue-api/sendblue-api.github.io/issues "Sendblue Repository"), If you need support with your integration, you can email us at [support@sendblue.co](mailto:support@sendblue.co). Here are some helpful links for getting started quickly:
+If you discover a bug, please raise an issue [here](https://github.com/sendblue-api/sendblue-api.github.io/issues "Sendblue Repository"), If you need support with your integration, you can email us at [support@sendblue.com](mailto:support@sendblue.com). Here are some helpful links for getting started quickly:
 
 - [FAQ](/docs/faq)
 - [Outbound (sending) iMessages](/docs/outbound)
@@ -40,4 +40,4 @@ _See more on our [Roadmap](/docs/roadmap)_
 
 ### Requests
 
-If you would like to request a feature, please send us an email at support@sendblue.co.
+If you would like to request a feature, please send us an email at support@sendblue.com.

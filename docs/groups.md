@@ -6,7 +6,7 @@ sidebar_label: Group Messages
 ---
 
 :::caution
-This API is still in beta, and is subject to change at any time. Please [consult with us](mailto:support@sendblue.co) before going into production.
+This API is still in beta, and is subject to change at any time. Please [consult with us](mailto:support@sendblue.com) before going into production.
 :::
 
 ## Availability
@@ -47,6 +47,7 @@ The group messaging API expects a slightly different json body than the individu
 | --------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | numbers         | `array`  | numbers is an array of `strings` which contain the E.164-formatted phone numbers of the desired recipients in a group chat. The maximum number of people allowed in a group chat is 25. |
 | group_id        | `string` | The group_id field is a uuid with which you can message groups that you have already created. This is the same as passing the same list of numbers as was passed in the initial request |
+| from_number     | `string` | The number to send the message from                                                                                                                                                     |
 | content         | `string` | The content field is the message that you want to send to the group.                                                                                                                    |
 | media_url       | `string` | A CDN link to a file which is publicly accessible which will be downloaded and sent to the group by Sendblue                                                                            |
 | send_style      | `string` | The style of delivery of the message (see [expressive messages](/docs/expressive-messages))                                                                                             |
@@ -66,6 +67,7 @@ axios.post(url, {
         '+19998887777',
         '+17778889999'
     ],
+    from_number: '+16468528190', // the sendblue number you want to use
     content: 'Hello group!',
     media_url: 'https://picsum.photos/200/300.jpg',
     status_callback: 'https://example.com/message-status/1234abcd',
@@ -73,8 +75,7 @@ axios.post(url, {
 headers: {
     "sb-api-key-id": << apiKey >> ,
     "sb-api-secret-key": << apiSecret >> ,
-    "content-type": "application/json"
-},
+    "content-type": "application/json" // Dont forget this when using other libraries like fetch or from the command line with curl
 }).then(response => {
     console.log(response.data);
 }).catch(error => {

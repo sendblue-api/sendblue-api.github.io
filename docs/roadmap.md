@@ -5,7 +5,7 @@ description: Sendblue Roadmap, Planned & Scheduled Features | iMessage for Busin
 sidebar_label: Roadmap
 ---
 
-Please [Contact us](mailto:support@sendblue.co) if you want us to prioritize a feature or if you want to add a feature to our roadmap.
+Please [Contact us](mailto:support@sendblue.com) if you want us to prioritize a feature or if you want to add a feature to our roadmap.
 
 ## Complete
 

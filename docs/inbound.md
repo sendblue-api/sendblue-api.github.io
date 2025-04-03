@@ -9,7 +9,7 @@ sidebar_label: Receiving Messages
 
 A user must be registered as a contact on your account before their messages will be routed to you. This can be done by sending them a message or adding them as a contact.
 
-Need receive-first texting? [Talk to us](mailto:support@sendblue.co) about our dedicated plans.
+Need receive-first texting? [Talk to us](mailto:support@sendblue.com) about our dedicated plans.
 
 :::
 
@@ -21,7 +21,7 @@ Received Messages will be sent as a POST request to the webhook which you define
 
 ```json
 {
-  "accountEmail": "support@sendblue.co",
+  "accountEmail": "support@sendblue.com",
   "content": "Ahoy Developer!",
   "media_url": "some_cdn_link.png",
   "is_outbound": false,

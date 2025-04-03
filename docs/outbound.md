@@ -45,6 +45,7 @@ axios
     url,
     {
       number: "+19998887777",
+      from_number: "+16468528190", // the sendblue number you want to use
       content: "Hello world!",
       send_style: "invisible",
       media_url: "https://picsum.photos/200/300.jpg",
@@ -71,6 +72,7 @@ axios
 | parameter       | type   | description                                                                                 |
 | --------------- | ------ | ------------------------------------------------------------------------------------------- |
 | number          | string | The number of the recipient of the message                                                  |
+| from_number     | string | The number to send the message from                                                         |
 | content         | string | The content of the message                                                                  |
 | send_style      | string | The style of delivery of the message (see [expressive messages](/docs/expressive-messages)) |
 | media_url       | string | The URL of the image you want to send                                                       |
@@ -126,7 +128,7 @@ Below is an example of the POST body that is sent to the status_callback URL for
 
 ```json
 {
-  "accountEmail": "support@sendblue.co",
+  "accountEmail": "support@sendblue.com",
   "content": "Hello world!",
   "is_outbound": true,
   "status": "DELIVERED",

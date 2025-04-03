@@ -7,7 +7,7 @@ sidebar_label: Zapier
 
 ## Getting started
 
-Our integration is listed [here](https://zapier.com/apps/sendblue/integrations). It currently has one trigger and one action, and those are receiving a message and sending a message, respectively.
+Our integration is listed [here](https://zapier.com/developer/public-invite/190713/ef4920fd76fc9abb5726a05675cc16e1/). It currently has one trigger and one action, and those are receiving a message and sending a message, respectively.
 
 ## Sending messages to multiple people
 
