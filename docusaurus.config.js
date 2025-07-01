@@ -2,7 +2,7 @@ module.exports = {
   title: "Sendblue",
   tagline: "SMS + iMessaging API Designed for Successful Businesses",
   url: "https://docs.sendblue.com",
-  trailingSlash: true,
+  trailingSlash: false,
   baseUrl: "/",
   favicon: "img/favicon.png",
   deploymentBranch: "master",
@@ -100,6 +100,12 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
       },
     ],

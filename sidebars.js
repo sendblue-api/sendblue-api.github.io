@@ -13,7 +13,7 @@ module.exports = {
       "typing-indicator",
       "zapier",
     ],
-    API: ["faq", "roadmap", "message-limits"],
+    API: ["faq", "roadmap", "message-limits", "status"],
     "Tutorials & quickstarts": ["contact-card"],
   },
 };
